@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event managment</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="../publics/script.js" defer> 
+
+    </script>
+
+    <!--font awsome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!--custom css file link-->
+    <!-- <link rel="stylesheet" href="../publics/style.css"> -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+
+<!--header section starts-->
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>its time to celebrate the best <span>event organizers</span></h3>
+        <a href="#" class="btn">contact us</a>
+    </div>
+
+    <div class="swiper-container home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../" alt=""></div>
+            <div><img src="../images1/image1.jpg" alt="sdf"></div>
+            <!-- <div class="swiper-slide"><img src="../images1/image2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images1/image3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images1/image4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images1/image5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images1/image6.jpg" alt=""></div> -->
+        </div>
+
+    </div>
+
+
+
+
+</section>
+<script>
+    var swiper = new Swiper(".home-slider", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2,
+        slideShadows: true,
+    },
+    loop: true,
+    autoplay: {
+        delay: 3000,
+        disableonInteraction: false,
+
+    }
+});
+
+</script>
+</body>
+</html>
+
+
+<!--home section ends-->
